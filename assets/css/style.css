@@ -83,6 +83,13 @@ input:checked ~ footer{
     background-color: #131a23;
 }
 
+input:checked ~ main .darkmode label{
+    background-color: #3d6394;
+    transition: all ease-in-out .4s;
+
+    
+}
+
 
 /* PÁGINA INICIAL */
 main{
@@ -129,10 +136,12 @@ main .column--esquerda{}
     width: 50px;
     height: 22px;
     display: block;
-    background-color: #3d6394;
+    background-color: gray;
     border-radius: 20px;
+    border-color: #636363;
     padding: 5px;
     margin: 0 auto;
+    transition: all ease-in-out .4s;
 
 }
 
@@ -140,7 +149,7 @@ main .column--esquerda{}
     width: 22px;
     height: 22px;
     display: inline-block;
-    background-color: #d9e2ee;
+    background-color: white;
     border-radius: 100%;
     transition: all ease-in-out .4s;
 
