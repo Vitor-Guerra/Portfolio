@@ -217,15 +217,30 @@ section ul li h3{}
     margin-bottom: 0;
     border: none;
 }
+
+
 .informacoesExperiencias h2{}
-.informacoesExperiencias ul{}
+
+.informacoesExperiencias ul{
+    line-height: 0.2rem;
+}
 .informacoesExperiencias ul li{}
 .informacoesExperiencias ul li a{}
+.informacoesExperiencias ul li h3{
+    line-height: 1.4rem;
+}
+
 
 .informacoesFormacoes{
     border: none;
-
 }
+
+.informacoesFormacoes ul li p{
+    line-height: 1.4rem;
+}
+
+
+
 
 
 
